@@ -112,12 +112,11 @@ body.dark{
     transform: scale(1.1);
 }
 
-
 .card.dark {
     color: white;
     background-color: black;
 }
 
-.card__list-social {
+.card__list-social.dark {
     color: white;
 }
