@@ -1,0 +1,32 @@
+i {
+    font-size: 30px;
+    margin: 10px 0;
+    color: #CBDCEB;
+}
+
+.bar {
+    background-color: rgb(231, 231, 231); 
+    width: 100%; 
+    border-radius: 15px; 
+}
+
+.bar__progress {
+    padding: 5px;
+    color: white; 
+    text-align: right; 
+    font-size: 13px; 
+    border-radius: 15px; 
+}
+
+.bar__progress--html {
+    background-color: #e44d26;
+    width: 50%;
+}
+.bar__progress--css {
+    background-color: #0b77c2;
+    width: 40%;
+}
+.bar__progress--js {
+    background-color: #f7e018;
+    width: 20%;
+}

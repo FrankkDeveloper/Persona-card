@@ -5,15 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Personal card</title>
     <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/main.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
 </head>
 <body>
+    <nav class="navigation">
+        <button class="switch" id="switch">
+            <span id="sun">
+                <i class="fa-regular fa-sun"></i>
+            </span>
+            <span id="moon">
+                <i class="fa-regular fa-moon"></i>
+            </span>
+        </button>
+        <a href="/PAGES/contact.html" class="navigation__links">Contacto</a>
+        <a href="/PAGES/skills.html" class="navigation__links">Habilidades</a>
+        <a href="index.html" class="navigation__links">Inicio</a>
+    </nav>
     <main class="container">
-        <nav>
-            <button class="switch"></button>
-        </nav>
         <div class="card">
             <img src="IMG/perfil.png" alt="" class="card__profile">
             <h1 class="card__name">@Cxrt</h1>
@@ -50,6 +61,6 @@
         </div>
     </main>
     <script src="https://kit.fontawesome.com/1575ab933e.js" crossorigin="anonymous"></script>
-    <script src="JS/app.js"></script>
+    <script src="/JS/app.js"></script>
 </body>
 </html>

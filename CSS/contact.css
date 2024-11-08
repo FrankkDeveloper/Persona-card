@@ -1,0 +1,12 @@
+.contactlist__item {
+    list-style: none;
+}
+
+.contactlist__item i {
+    font-size: 30px;
+    margin: 10px 0;
+    color: #CBDCEB;
+}
+.contactlist__item p {
+    font-weight: 200;
+}
